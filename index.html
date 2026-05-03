@@ -8,13 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <title>Skylink CZ/SK XMLTV viewer</title>
+    <title>Magio TV/Magio GO SK XMLTV viewer</title>
   </head>
   <body>
       <div class="container-fluid px-0 h-100">
         <div class="row justify-content-md-center viewer-top">
           <div class="col">
-            <h1 class="px-3 py-2">Skylink CZ/SK XMLTV viewer</h1>
+            <h1 class="px-3 py-2">Magio TV/Magio GO SK XMLTV viewer</h1>
           </div>
         </div>
         <div class="row viewer-bottom">
@@ -461,7 +461,7 @@ eraseAll();
 $.ajax({
   type: 'GET',
   dataType: 'xml',
-  url: "https://raw.githubusercontent.com/370network/skylink-xmltv/refs/heads/main/a3b_a1.xml",
+  url: "https://raw.githubusercontent.com/370network/magio-xmltv/refs/heads/main/magio.xml",
   cache: true,
   error: function (xhr, ajaxOptions, thrownError) {
       console.log(thrownError);
